@@ -11,10 +11,6 @@ header {
     
 }
 
-/* header h1 {
-    padding-right: 400px;
-} */
-
 ul {
     list-style-type: none;
     display: flex;
@@ -51,7 +47,7 @@ header h2 {
     margin: 0;
 }
 
-button {
+.hero button {
     background-color: #3882F6;
     color: white;
     border: none;
@@ -111,10 +107,13 @@ button {
     margin-bottom: 36px;
 }
 
+/* Quote section */
+
 .quote-section {
     display: flex;
     flex-direction: column;
     justify-content: center; 
+    align-items: center;
     height: 50vh; 
     text-align: center;
     background-color: #E5E7EB;
@@ -138,4 +137,56 @@ cite {
     margin-top: 20px; 
     display: block; 
     width: 100%; 
+}
+
+/* Call to action */
+
+.action-section {
+    display: flex;
+    height: 30vh;
+    background-color: #3882F6 ;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px; 
+    max-width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.action-section h3 {
+    font-size: 28px; 
+    font-weight: 800; 
+    color: #F9FAF8;
+    margin: 0;
+    margin-right: 125px;
+}
+
+.button-container {
+    border: 5px white; 
+    border-radius: 5px; 
+}
+
+.action-section p {
+    margin-right: 190px;
+    
+}
+
+.button-container button {
+    padding: 10px 20px; 
+    color: white; 
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+
 }
