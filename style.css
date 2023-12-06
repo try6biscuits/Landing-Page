@@ -11,9 +11,9 @@ header {
     
 }
 
-header h1 {
-    padding-right: 500px;
-}
+/* header h1 {
+    padding-right: 400px;
+} */
 
 ul {
     list-style-type: none;
@@ -109,4 +109,33 @@ button {
     display: flex;
     justify-content: center;
     margin-bottom: 36px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 50vh; 
+    text-align: center;
+    background-color: #E5E7EB;
+    padding: 20px;
+}
+
+blockquote {
+    font-size: 1.5em; 
+    line-height: 1.6; 
+    color: #1F2937; 
+    max-width: 800px; 
+    margin: 0;
+    padding: 0; 
+    font-style: italic; 
+}
+
+cite {
+    font-size: 1em; 
+    color: #1F2937;
+    text-align: right; 
+    margin-top: 20px; 
+    display: block; 
+    width: 100%; 
 }
